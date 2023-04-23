@@ -1,3 +1,5 @@
+import 'package:fllearn/pages/home_page.dart';
+import 'package:fllearn/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,13 +11,21 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text('Welcome to 30 days of Flutter'),
-        ),
+      themeMode: ThemeMode.light,
+      theme: ThemeData(
+        primarySwatch: Colors.red,
       ),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+      ),
+      initialRoute: "/home",
+      routes: {
+        "/": (context) => const LoginPage(),
+        "/home": (context) => const HomePage(),
+        "/login": (context) => const LoginPage(),
+      },
     );
   }
 }
