@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 11,
+      "name": "Adidas Ultraboost 22",
+      "desc": "The Adidas Ultraboost features responsive cushioning that delivers a smooth and energized ride. The shoe's flexible outsole adapts to your unique foot strike, providing a comfortable and natural feel.",
+      "price": 180,
+      "color": "#000000",
+      "image": "assets/images/shoes_4.webp"
+    },
+    {
+      "id": 12,
+      "name": "Adidas NMD_R1",
+      "desc": "The Adidas NMD_R1 combines classic Adidas style with modern technology. The shoe's Boost midsole provides unparalleled cushioning and energy return, while the Primeknit upper offers a comfortable, sock-like fit.",
+      "price": 140,
+      "color": "#FDB813",
+      "image": "assets/images/shoes_5.webp"
+    },
+    {
+      "id": 13,
+      "name": "Adidas Superstar",
+      "desc": "The Adidas Superstar is a timeless classic. The shoe's iconic design features a leather upper, signature shell toe, and rubber outsole for durable traction. The shoe's simple yet stylish design makes it a versatile choice for any occasion.",
+      "price": 80,
+      "color": "#FFFFFF",
+      "image": "assets/images/shoes_6.webp"
+    },
+    {
+      "id": 14,
+      "name": "Adidas Stan Smith",
+      "desc": "The Adidas Stan Smith is an iconic tennis shoe that has been updated for everyday wear. The shoe's clean and simple design features a leather upper, perforated 3-Stripes, and a rubber outsole for durable traction.",
+      "price": 75,
+      "color": "#1E1F26",
+      "image": "assets/images/shoes_7.webp"
+    },
+    {
+      "id": 15,
+      "name": "Adidas Originals",
+      "desc": "The Adidas Originals combines classic Adidas style with modern technology. The shoe's Boost midsole provides unparalleled cushioning and energy return, while the Primeknit upper offers a comfortable, sock-like fit.",
+      "price": 140,
+      "color": "#000000",
+      "image": "assets/images/shoes_8.webp"
+    },
+    {
+      "id": 16,
+      "name": "Adidas ZX",
+      "desc": "The Adidas ZX is a retro-inspired running shoe that has been updated for everyday wear. The shoe's lightweight design features a mesh upper, EVA midsole, and rubber outsole for a comfortable and responsive ride.",
+      "price": 90,
+      "color": "#FDB813",
+      "image": "assets/images/shoes_9.webp"
+    },
+    {
+      "id": 31,
+      "name": "Adidas Ultraboost",
+      "desc": "The Adidas Ultraboost features responsive cushioning that delivers a smooth and energized ride. The shoe's flexible outsole adapts to your unique foot strike, providing a comfortable and natural feel.",
+      "price": 180,
+      "color": "#000000",
+      "image": "assets/images/shoes_4.webp"
+    },
+    {
+      "id": 32,
+      "name": "Adidas NMD_R1",
+      "desc": "The Adidas NMD_R1 combines classic Adidas style with modern technology. The shoe's Boost midsole provides unparalleled cushioning and energy return, while the Primeknit upper offers a comfortable, sock-like fit.",
+      "price": 140,
+      "color": "#FDB813",
+      "image": "assets/images/shoes_5.webp"
+    },
+    {
+      "id": 33,
+      "name": "Adidas Superstar",
+      "desc": "The Adidas Superstar is a timeless classic. The shoe's iconic design features a leather upper, signature shell toe, and rubber outsole for durable traction. The shoe's simple yet stylish design makes it a versatile choice for any occasion.",
+      "price": 80,
+      "color": "#FFFFFF",
+      "image": "assets/images/shoes_6.webp"
+    },
+    {
+      "id": 34,
+      "name": "Adidas Stan Smith",
+      "desc": "The Adidas Stan Smith is an iconic tennis shoe that has been updated for everyday wear. The shoe's clean and simple design features a leather upper, perforated 3-Stripes, and a rubber outsole for durable traction.",
+      "price": 75,
+      "color": "#1E1F26",
+      "image": "assets/images/shoes_7.webp"
+    },
+    {
+      "id": 35,
+      "name": "Adidas Originals",
+      "desc": "The Adidas Originals combines classic Adidas style with modern technology. The shoe's Boost midsole provides unparalleled cushioning and energy return, while the Primeknit upper offers a comfortable, sock-like fit.",
+      "price": 140,
+      "color": "#000000",
+      "image": "assets/images/shoes_8.webp"
+    },
+    {
+      "id": 36,
+      "name": "Adidas ZX",
+      "desc": "The Adidas ZX is a retro-inspired running shoe that has been updated for everyday wear. The shoe's lightweight design features a mesh upper, EVA midsole, and rubber outsole for a comfortable and responsive ride.",
+      "price": 90,
+      "color": "#FDB813",
+      "image": "assets/images/shoes_9.webp"
+    },
+    {
+      "id": 31,
+      "name": "Adidas Ultraboost",
+      "desc": "The Adidas Ultraboost features responsive cushioning that delivers a smooth and energized ride. The shoe's flexible outsole adapts to your unique foot strike, providing a comfortable and natural feel.",
+      "price": 180,
+      "color": "#000000",
+      "image": "assets/images/shoes_4.webp"
+    },
+    {
+      "id": 42,
+      "name": "Adidas NMD_R1",
+      "desc": "The Adidas NMD_R1 combines classic Adidas style with modern technology. The shoe's Boost midsole provides unparalleled cushioning and energy return, while the Primeknit upper offers a comfortable, sock-like fit.",
+      "price": 140,
+      "color": "#FDB813",
+      "image": "assets/images/shoes_5.webp"
+    },
+    {
+      "id": 43,
+      "name": "Adidas Superstar",
+      "desc": "The Adidas Superstar is a timeless classic. The shoe's iconic design features a leather upper, signature shell toe, and rubber outsole for durable traction. The shoe's simple yet stylish design makes it a versatile choice for any occasion.",
+      "price": 80,
+      "color": "#FFFFFF",
+      "image": "assets/images/shoes_6.webp"
+    },
+    {
+      "id": 44,
+      "name": "Adidas Stan Smith",
+      "desc": "The Adidas Stan Smith is an iconic tennis shoe that has been updated for everyday wear. The shoe's clean and simple design features a leather upper, perforated 3-Stripes, and a rubber outsole for durable traction.",
+      "price": 75,
+      "color": "#1E1F26",
+      "image": "assets/images/shoes_7.webp"
+    },
+    {
+      "id": 45,
+      "name": "Adidas Originals",
+      "desc": "The Adidas Originals combines classic Adidas style with modern technology. The shoe's Boost midsole provides unparalleled cushioning and energy return, while the Primeknit upper offers a comfortable, sock-like fit.",
+      "price": 140,
+      "color": "#000000",
+      "image": "assets/images/shoes_8.webp"
+    },
+    {
+      "id": 46,
+      "name": "Adidas ZX",
+      "desc": "The Adidas ZX is a retro-inspired running shoe that has been updated for everyday wear. The shoe's lightweight design features a mesh upper, EVA midsole, and rubber outsole for a comfortable and responsive ride.",
+      "price": 90,
+      "color": "#FDB813",
+      "image": "assets/images/shoes_9.webp"
+    }
+  ]
+}

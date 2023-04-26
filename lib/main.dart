@@ -1,9 +1,8 @@
 import 'package:fllearn/pages/home_page.dart';
 import 'package:fllearn/pages/login_page.dart';
 import 'package:fllearn/utils/routes.dart';
-import 'package:fllearn/utils/colors.dart';
+import 'package:fllearn/widgets/themes.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MainApp());
@@ -17,12 +16,8 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
-      theme: ThemeData(
-          primarySwatch: AppColors.appPrimaryColor,
-          fontFamily: GoogleFonts.lato().fontFamily),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ),
+      theme: AppTheme.lightTheme(context),
+      darkTheme: AppTheme.darkTheme(context),
       initialRoute: AppRoutes.homeRoute,
       routes: {
         "/": (context) => const LoginPage(),

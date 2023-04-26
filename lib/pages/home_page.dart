@@ -1,19 +1,22 @@
+import 'package:fllearn/widgets/body_widget.dart';
 import 'package:fllearn/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
-  final String hello = "Hello World";
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Catelog App'),
+        title: const Text('Shoes app'),
       ),
-      body: const Center(
-        child: Text("Welcome Hello World !"),
-      ),
+      body: BodyWidget(),
       drawer: const AppDrawer(),
     );
   }
