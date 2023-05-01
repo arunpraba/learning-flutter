@@ -1,3 +1,4 @@
+import 'package:fllearn/pages/cart_page.dart';
 import 'package:fllearn/pages/home_page.dart';
 import 'package:fllearn/pages/login_page.dart';
 import 'package:fllearn/utils/routes.dart';
@@ -15,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme(context),
       darkTheme: AppTheme.darkTheme(context),
       initialRoute: AppRoutes.homeRoute,
@@ -23,6 +24,7 @@ class MainApp extends StatelessWidget {
         "/": (context) => const LoginPage(),
         AppRoutes.homeRoute: (context) => const HomePage(),
         AppRoutes.loginRoute: (context) => const LoginPage(),
+        AppRoutes.cartRoute: (context) => const CartPage(),
       },
     );
   }
